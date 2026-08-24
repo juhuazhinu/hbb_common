@@ -18,7 +18,6 @@ use serde_derive::{Deserialize, Serialize};
 use serde_json;
 use sodiumoxide::base64;
 use sodiumoxide::crypto::sign;
-
 mod permanent_password;
 
 pub use permanent_password::{
